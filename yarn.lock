@@ -70,10 +70,6 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@angular/common/-/common-4.0.0.tgz#ca18983222fdab4ecaa7a8b99eda6ff661e6dc92"
 
-"@angular/common@^2.0.0":
-  version "2.4.10"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-2.4.10.tgz#a3a682d2228fa30ec23dd0eb57c8e887fba26997"
-
 "@angular/compiler-cli@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-4.0.0.tgz#35b2d40cd35135aecec4be659532148f5ac67da6"
@@ -86,17 +82,14 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-4.0.0.tgz#e1aa061a6f8ef269f9748af1a7bc290f9d37ed6c"
 
-"@angular/compiler@^2.0.0":
-  version "2.4.10"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-2.4.10.tgz#f51fd34820b2a02c7cb61fbcf49873c58056fb0c"
-
 "@angular/core@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@angular/core/-/core-4.0.0.tgz#fd877e074b29dfa9c63b96a21995fc7556d423a3"
 
-"@angular/core@^2.0.0":
-  version "2.4.10"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-2.4.10.tgz#0b8320a65065965d998645b1f5cd3cf769b441ea"
+"@angular/fire@5.4.2":
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/@angular/fire/-/fire-5.4.2.tgz#fb2d54935de0d83789e940e5f57a6ffc0e1ef4eb"
+  integrity sha512-QzB5d1wtqr9jxfsVNv2+569MlfK4/QrrpNy0IngOHdxS4FBbXqMOcx37iv1m2mzJv9zlGUddUX44IZP5Xfb3cw==
 
 "@angular/forms@4.0.0":
   version "4.0.0"
@@ -110,17 +103,9 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-4.0.0.tgz#d1d9de80fe1e02735be89f512e0faf5a80d57fa5"
 
-"@angular/platform-browser-dynamic@^2.0.0":
-  version "2.4.10"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.10.tgz#8df25dec2b06adc690cc9bc26448deccaebcd8ec"
-
 "@angular/platform-browser@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-4.0.0.tgz#512ae9ab19ccc25fa79027f44e291bcee236cd2b"
-
-"@angular/platform-browser@^2.0.0":
-  version "2.4.10"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-2.4.10.tgz#cbf25608148fb4ffef96cc5005ba5d7b3e093906"
 
 "@angular/router@4.0.0":
   version "4.0.0"
@@ -247,17 +232,12 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
-angularfire2@^2.0.0-beta.8:
-  version "2.0.0-beta.7-pre"
-  resolved "https://registry.yarnpkg.com/angularfire2/-/angularfire2-2.0.0-beta.7-pre.tgz#596419077187f2d6e79e46e8beac2e685d92f045"
+angularfire2@^5.0.0:
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/angularfire2/-/angularfire2-5.4.2.tgz#e6b7df3c070aaddba6f650abfdc4c89aec306f7a"
+  integrity sha512-7brktOHPObHgMnCN+QkakyCBr2mnxMxMSVLlEZ7OF70LjFIQz/RV3t5a7cH1SjystbY+kzR3qYvn/irlWs27/Q==
   dependencies:
-    "@angular/common" "^2.0.0"
-    "@angular/compiler" "^2.0.0"
-    "@angular/core" "^2.0.0"
-    "@angular/platform-browser" "^2.0.0"
-    "@angular/platform-browser-dynamic" "^2.0.0"
-    firebase "^3.0.0"
-    rxjs "^5.0.1"
+    "@angular/fire" "5.4.2"
 
 ansi-align@^1.1.0:
   version "1.1.0"
@@ -1554,7 +1534,7 @@ dom-serializer@0:
     domelementtype "~1.1.1"
     entities "~1.1.1"
 
-dom-storage@2.0.2, dom-storage@^2.0.2:
+dom-storage@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/dom-storage/-/dom-storage-2.0.2.tgz#ed17cbf68abd10e0aef8182713e297c5e4b500b0"
 
@@ -2096,16 +2076,6 @@ firebase@2.x.x:
   resolved "https://registry.yarnpkg.com/firebase/-/firebase-2.4.2.tgz#4e1119ec0396ca561d8a7acbff1630feac6c0a31"
   dependencies:
     faye-websocket ">=0.6.0"
-
-firebase@^3.0.0:
-  version "3.7.4"
-  resolved "https://registry.yarnpkg.com/firebase/-/firebase-3.7.4.tgz#629fd7f84f8ed74f1da815fd792bfa03cd5e2b5c"
-  dependencies:
-    dom-storage "2.0.2"
-    faye-websocket "0.9.3"
-    jsonwebtoken "7.1.9"
-    rsvp "3.2.1"
-    xmlhttprequest "1.8.0"
 
 firebase@^3.8.0:
   version "3.8.0"
@@ -3122,16 +3092,6 @@ jsonschema@^1.0.2:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/jsonschema/-/jsonschema-1.1.1.tgz#3cede8e3e411d377872eefbc9fdf26383cbc3ed9"
 
-jsonwebtoken@7.1.9:
-  version "7.1.9"
-  resolved "https://registry.yarnpkg.com/jsonwebtoken/-/jsonwebtoken-7.1.9.tgz#847804e5258bec5a9499a8dc4a5e7a3bae08d58a"
-  dependencies:
-    joi "^6.10.1"
-    jws "^3.1.3"
-    lodash.once "^4.0.0"
-    ms "^0.7.1"
-    xtend "^4.0.1"
-
 jsonwebtoken@^5.4.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/jsonwebtoken/-/jsonwebtoken-5.7.0.tgz#1c90f9a86ce5b748f5f979c12b70402b4afcddb4"
@@ -3168,7 +3128,7 @@ jwa@^1.1.4:
     ecdsa-sig-formatter "1.0.9"
     safe-buffer "^5.0.1"
 
-jws@^3.0.0, jws@^3.1.3, jws@^3.1.4:
+jws@^3.0.0, jws@^3.1.4:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/jws/-/jws-3.1.4.tgz#f9e8b9338e8a847277d6444b1464f61880e050a2"
   dependencies:
@@ -3713,6 +3673,11 @@ nested-error-stacks@^1.0.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-1.0.2.tgz#19f619591519f096769a5ba9a86e6eeec823c3cf"
   dependencies:
     inherits "~2.0.1"
+
+ng2-adsense@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/ng2-adsense/-/ng2-adsense-2.2.1.tgz#36a4cb448ba0ef72d50885dc8992ccf3653a905f"
+  integrity sha1-NqTLRIug73LVCIXciZLM82U6kF8=
 
 ng2-sharebuttons@^2.1.0:
   version "2.1.0"
@@ -4888,7 +4853,7 @@ router@^1.0.0:
     setprototypeof "1.0.3"
     utils-merge "1.0.0"
 
-rsvp@3.2.1, rsvp@^3.0.17, rsvp@^3.0.18, rsvp@^3.1.0:
+rsvp@^3.0.17, rsvp@^3.0.18, rsvp@^3.1.0:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-3.2.1.tgz#07cb4a5df25add9e826ebc67dcc9fd89db27d84a"
 
@@ -6163,7 +6128,7 @@ xmlhttprequest-ssl@1.5.3:
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.5.3.tgz#185a888c04eca46c3e4070d99f7b49de3528992d"
 
-xmlhttprequest@1.8.0, xmlhttprequest@^1.8.0:
+xmlhttprequest@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz#67fe075c5c24fef39f9d65f5f7b7fe75171968fc"
 
